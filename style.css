@@ -1,17 +1,38 @@
-header{
-    background-color: blueviolet;
-    color: white;
+:root{
+    --mainbg: #4475C4;
+    -fontcolor: #0b3270;
+    --linkhover: #8A2BE2;
 }
-header ul{
+
+header {
+    background-color: var(--mainbg);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+header ul {
     text-decoration: none;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
 }
 nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    line-height: 0.1;
+    padding-bottom: 2px;
+   
 }
+
+header ul li {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+/* 
+main {
+    background-size: cover;
+    background: url(https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80) center center no-repeat;
+} */
